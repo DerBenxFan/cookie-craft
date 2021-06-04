@@ -2,8 +2,8 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const serverstats = require("./servers.json")
 const coinfile = require("./coins.json")
-const PREFIX = '-';
-const TOKEN = 'Nzk5NzIxOTAyOTEzNDg2ODc5.YAHtDw.W9GdulIEWnzn_3MU0LsUXar9vgo';
+const PREFIX = 'Dein Prefix';
+const TOKEN = 'Dein Token';
 
 const chance = '801465438605148250'
 
