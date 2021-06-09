@@ -83,6 +83,9 @@ bot.on('message', message => {
         else if (parts[0] == '-ownerinfo') {
             message.channel.send(`Der Owner vom **${message.guild.name}**-Server ist **${message.guild.owner.user.username}#${message.guild.owner.user.discriminator}**`)
         }
+        else if (parts[0] == '-mute') {
+            message.channel.send(`kommt beim Nexten update`)
+        }
 		else if (parts[0] == '-ip') {
             message.channel.send(`die server IP von den java server ist\nIP: Kommt Bald\nDie server ip von den TeamSpeak server ist\nIP: Kommt Bald`)
         }
